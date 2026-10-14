@@ -1,0 +1,4 @@
+.title { margin: 10px 0 4px; padding: 0 10px; font-size: 15px; font-weight: 400; color: #fff; }
+.grid { display: grid; grid-template-columns: repeat(9, 1fr); padding: 0 6px; }
+.emoji { border: 0; background: none; padding: 6px 0; font-size: 22px; border-radius: 6px; }
+.emoji:hover { background: #333; }

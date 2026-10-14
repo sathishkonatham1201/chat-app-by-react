@@ -1,0 +1,111 @@
+// Emoji grouped by category. Each emoji has keywords so search works.
+// "icon" is what shows on the category tab.
+
+export const emojiCategories = [
+  {
+    id: "smileys",
+    title: "Smileys & People",
+    icon: "🙂",
+    emojis: [
+      { char: "😀", keywords: ["grin", "happy", "smile"] },
+      { char: "😁", keywords: ["beam", "smile", "happy"] },
+      { char: "😂", keywords: ["laugh", "tears", "joy", "lol"] },
+      { char: "🤣", keywords: ["rofl", "laugh"] },
+      { char: "😊", keywords: ["blush", "smile"] },
+      { char: "😎", keywords: ["cool", "sunglasses"] },
+      { char: "😍", keywords: ["love", "heart", "eyes"] },
+      { char: "😘", keywords: ["kiss", "love"] },
+      { char: "🤔", keywords: ["think", "hmm"] },
+      { char: "😴", keywords: ["sleep", "tired", "zzz"] },
+      { char: "😢", keywords: ["cry", "sad", "tear"] },
+      { char: "😱", keywords: ["scream", "shock", "fear"] },
+      { char: "👍", keywords: ["thumbs", "yes", "like", "ok"] },
+      { char: "👋", keywords: ["wave", "hello", "hi", "bye"] },
+      { char: "👏", keywords: ["clap", "applause", "congrats"] },
+      { char: "🙏", keywords: ["pray", "please", "thanks"] },
+    ],
+  },
+  {
+    id: "animals",
+    title: "Animals & Nature",
+    icon: "🐶",
+    emojis: [
+      { char: "🐶", keywords: ["dog", "puppy"] },
+      { char: "🐱", keywords: ["cat", "kitten"] },
+      { char: "🐭", keywords: ["mouse"] },
+      { char: "🐼", keywords: ["panda", "bear"] },
+      { char: "🦊", keywords: ["fox"] },
+      { char: "🐸", keywords: ["frog"] },
+      { char: "🌊", keywords: ["wave", "ocean", "sea", "water"] },
+      { char: "🌳", keywords: ["tree", "nature"] },
+    ],
+  },
+  {
+    id: "food",
+    title: "Food & Drink",
+    icon: "🍎",
+    emojis: [
+      { char: "🍎", keywords: ["apple", "fruit"] },
+      { char: "🍕", keywords: ["pizza"] },
+      { char: "🍔", keywords: ["burger"] },
+      { char: "🍩", keywords: ["donut", "sweet"] },
+      { char: "☕", keywords: ["coffee", "tea", "drink"] },
+      { char: "🍺", keywords: ["beer", "drink"] },
+    ],
+  },
+  {
+    id: "activities",
+    title: "Activities",
+    icon: "🏀",
+    emojis: [
+      { char: "🏀", keywords: ["basketball", "sport"] },
+      { char: "⚽", keywords: ["soccer", "football", "sport"] },
+      { char: "🎮", keywords: ["game", "video"] },
+      { char: "🎉", keywords: ["party", "celebrate", "tada"] },
+    ],
+  },
+  {
+    id: "travel",
+    title: "Travel & Places",
+    icon: "🚗",
+    emojis: [
+      { char: "🚗", keywords: ["car", "drive"] },
+      { char: "✈️", keywords: ["plane", "flight", "travel"] },
+      { char: "🚀", keywords: ["rocket", "launch"] },
+      { char: "🏠", keywords: ["home", "house"] },
+    ],
+  },
+  {
+    id: "objects",
+    title: "Objects",
+    icon: "💡",
+    emojis: [
+      { char: "💡", keywords: ["idea", "light", "bulb"] },
+      { char: "📱", keywords: ["phone", "mobile"] },
+      { char: "💻", keywords: ["laptop", "computer"] },
+      { char: "🔔", keywords: ["bell", "notification"] },
+    ],
+  },
+  {
+    id: "symbols",
+    title: "Symbols",
+    icon: "❤️",
+    emojis: [
+      { char: "❤️", keywords: ["heart", "love", "red"] },
+      { char: "✅", keywords: ["check", "done", "yes"] },
+      { char: "❌", keywords: ["cross", "no", "wrong"] },
+      { char: "⭐", keywords: ["star", "favorite"] },
+    ],
+  },
+  {
+    id: "flags",
+    title: "Flags",
+    icon: "🏁",
+    emojis: [
+      { char: "🏁", keywords: ["finish", "race", "flag"] },
+      { char: "🇮🇳", keywords: ["india", "flag"] },
+      { char: "🇵🇱", keywords: ["poland", "flag"] },
+      { char: "🇺🇸", keywords: ["usa", "america", "flag"] },
+    ],
+  },
+];

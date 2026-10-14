@@ -1,0 +1,9 @@
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: Roboto, system-ui, sans-serif;
+  color: #3b4252;
+  background: #fff;
+}
+button { font-family: inherit; cursor: pointer; }

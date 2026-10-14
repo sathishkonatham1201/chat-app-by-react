@@ -1,0 +1,8 @@
+.picker {
+  position: absolute; right: 0; bottom: 52px;
+  width: 375px; height: 440px;
+  display: flex; flex-direction: column;
+  background: #1c1c1c; border-radius: 8px; overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+}
+.body { flex: 1; overflow-y: auto; }

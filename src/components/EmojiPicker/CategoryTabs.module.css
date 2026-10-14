@@ -1,0 +1,6 @@
+.tabs { display: flex; justify-content: space-between; padding: 0 10px; border-bottom: 1px solid #333; }
+.tab {
+  flex: 1; padding: 12px 0 10px; border: 0; border-bottom: 2px solid transparent;
+  background: none; font-size: 16px; filter: grayscale(1) brightness(1.6);
+}
+.active { border-bottom-color: #9b6bff; filter: none; }
